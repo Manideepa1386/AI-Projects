@@ -11,7 +11,10 @@ model = LinearRegression()
 model.fit(hours, marks)
 
 # Prediction
-predicted = model.predict([[6]])
+hours_input = float(input("Enter study hours: "))
+predicted = model.predict([[hours_input]])
+
+print("Predicted marks:", predicted[0])
 
 print("Predicted marks for 6 hours study:", predicted[0])
 
