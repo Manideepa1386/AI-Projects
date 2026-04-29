@@ -46,8 +46,7 @@ python spam_classifier.py
 ![Marks Output](marks_output.png)
 
 ###  Spam Classifier
-![Spam Output](spam_output1.png)
-![Spam Output](spam_output2.png)
+![Spam Output](spam_output.png)
 
 
 
