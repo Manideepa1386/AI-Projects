@@ -28,10 +28,11 @@ model = MultinomialNB()
 model.fit(X, y)
 
 # Test message
-msg = ["Hi bro how are u"]
+msg = [input("Enter message : ")]
 msg_vector = vectorizer.transform(msg)
 
 prediction = model.predict(msg_vector)
 
 print("Message:", msg[0])
 print("Prediction:", prediction[0])
+
