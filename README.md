@@ -28,6 +28,18 @@ This repository contains beginner-friendly Artificial Intelligence and Machine L
 
 
 
+ ##  How to Run
+
+1. Install Python
+2. Install required libraries:
+pip install numpy pandas matplotlib scikit-learn
+
+3. Run the project:
+python marks_predictor.py
+python spam_classifier.py
+
+
+
 ##  Project Outputs
 
 ###  Marks Predictor
