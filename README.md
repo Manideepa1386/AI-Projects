@@ -10,12 +10,23 @@ This repository contains beginner-friendly Artificial Intelligence and Machine L
 - Uses Linear Regression algorithm
 - Includes data visualization using Matplotlib
 
+### Example
+Input: 5 hours
+output: 70 marks(approx)
+
 
 
 ###  2. Spam Message Classifier
 - Classifies messages as spam or not spam
 - Uses Natural Language Processing (NLP)
 - Implemented using CountVectorizer and Naive Bayes algorithm
+
+### Example
+Input 1: congratulations you won a free gift
+Output 1: Spam
+
+Input 2: how are you
+Output 2: ham
 
 
 
